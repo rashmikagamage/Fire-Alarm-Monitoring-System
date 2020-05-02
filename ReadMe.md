@@ -1,4 +1,4 @@
-<h2>To see important coding files please go these directories</h2>
+<h2>To see important coding files please go to these directories</h2>
 
 Sensor App - Fire-Alarm-Monitoring-System/Sensor App/src/components/
 
