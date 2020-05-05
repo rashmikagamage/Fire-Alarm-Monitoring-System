@@ -2,29 +2,11 @@
 
 ***************************************Installation Guide****************************************************
 
-Important : To Run RMI server and client Java should be already installed in your system
+Important : To Run RMI server and client , Java should be already installed in your system
 			To Run API Node should be already installed in yoour system
 			Install Node - https://nodejs.org/en/download/
 
-RMI  Server
 
-
-i. 	Open Alarm_Monitoring_RMI project in eclipse
-
-ii. Right click on the project folder in the Project explorer,
-	select properties > Java Build Path > Libraries > add External JARs
-	and copy all the jar files in the " Rmi_Jars" folder
-
-iii.Then go to the project location in the eclipse workplace, this can be found by
-	right clicking on the Alarm_Monitoring_RMI folder in the eclipse project explorer
-	and select properties>Resources, there you can find the location.
-	
-iv. Open up a terminal and change your directory to project bin folder and  Type
-	"start rmiregistry"
-
-v.  In eclipse project explorer go to Alarm_Monitoring_RMI > src > (default_package) and 
-	right click on server.java and run as java application
-		
 
 REST Api
 
@@ -38,6 +20,35 @@ iii. Type "Node index" and run
 Iv. This will run on http://localhost:4000
 
 
+RMI  Server
+
+
+i. 	Open Alarm_Monitoring_RMI project in eclipse
+
+ii. Right click on the project folder in the Project explorer,
+	select properties > Java Build Path > Libraries > add External JARs
+	and copy all the jar files in the "libs" folder
+
+iii.Then go to the project location in the eclipse workplace, this can be found by
+	right clicking on the Alarm_Monitoring_RMI folder in the eclipse project explorer
+	and select properties>Resources, there you can find the location.
+	
+iv. Open up a terminal and change your directory to project bin folder and  Type
+	"start rmiregistry"
+
+v.  In eclipse project explorer go to Alarm_Monitoring_RMI > src > (default_package) and 
+	right click on server.java and run as java application
+		
+
+Desktop (RMI) Client
+
+
+i. Go to eclipse Project explorer
+
+ii. Right Click on HomePage and click Run as > Java Application
+
+
+
 
 Application to simulate the behavior of a Fire sensor
 
@@ -49,14 +60,6 @@ ii.  Go in to the project foler from the termial and type "npm install" and run
 iii. Type "npm start" 
 
 iv. Browser will be open with the client application.
-
-
-Desktop (RMI) Client
-
-
-i. Go to eclipse Project explorer
-
-ii. Right Click on HomePage and click Run as > Java Application
 
 
 Web Client
