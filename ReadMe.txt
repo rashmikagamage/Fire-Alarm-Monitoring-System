@@ -19,4 +19,8 @@ pramodhsam1@gmaill.com
 076 671 6781
 
 Github Link - https://github.com/rashmikagamage/Fire-Alarm-Monitoring-System
+<<<<<<< HEAD
 Video Link - https://youtu.be/T65_uHNnguM
+=======
+Video Link - https://youtu.be/T65_uHNnguM
+>>>>>>> 4d8cf95a7a80099f0c81798dfa6c65b1e5a6f112
